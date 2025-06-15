@@ -1,0 +1,13 @@
+Package: onion-link-manager-dbgsym
+Package-Type: ddeb
+Source: onion-link-manager
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Elias <elias@unknown>
+Installed-Size: 2228
+Depends: onion-link-manager (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for onion-link-manager
+Build-Ids: 6241b4c0b596fcf093efc9005b7bf7df3cff6fa5

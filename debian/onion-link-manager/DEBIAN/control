@@ -1,0 +1,10 @@
+Package: onion-link-manager
+Version: 1.0-2
+Architecture: amd64
+Maintainer: Elias <elias@unknown>
+Installed-Size: 9571
+Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
+Section: utils
+Priority: optional
+Homepage: https://github.com/michmazbout/onion-link-manager
+Description: A tool to manage and open onion links in the Tor Browser
