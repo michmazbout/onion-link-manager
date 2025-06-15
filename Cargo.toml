@@ -8,6 +8,7 @@ egui = "0.22"
 eframe = "0.22"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+dirs = "6.0.0"
 
 [package.metadata.deb]
 maintainer = "MichMazbout<MichMazbout@outlook.com>"

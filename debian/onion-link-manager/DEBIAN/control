@@ -1,7 +1,7 @@
 Package: onion-link-manager
-Version: 1.0-2
+Version: 1.0-3
 Architecture: amd64
-Maintainer: Elias <elias@unknown>
+Maintainer: MichMazbout <michmazbout@outlook.com>
 Installed-Size: 9571
 Depends: libc6 (>= 2.39), libgcc-s1 (>= 4.2)
 Section: utils

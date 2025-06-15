@@ -65,11 +65,12 @@ impl OnionLinkManager {
     }
 
     fn search_tor_browser(&mut self) {
+        let home_dir = dirs::home_dir().unwrap_or_else(|| PathBuf::from("/home/youruser"));
         let possible_paths = [
-            PathBuf::from("/home/elias/.local/share/torbrowser/tbb/x86_64/tor-browser/Browser/start-tor-browser"),
+            home_dir.join(".local/share/torbrowser/tbb/x86_64/tor-browser/Browser/start-tor-browser"),
             PathBuf::from("/usr/local/bin/torbrowser"),
             PathBuf::from("/opt/tor-browser/Browser/start-tor-browser"),
-            PathBuf::from("/home/elias/Downloads/tor-browser/Browser/start-tor-browser"),
+            home_dir.join("Downloads/tor-browser/Browser/start-tor-browser"),
         ];
 
         for path in possible_paths.iter() {
