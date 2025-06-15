@@ -1,0 +1,22 @@
+[package]
+name = "onion-link-manager"
+version = "0.2.1"
+edition = "2024"
+
+[dependencies]
+egui = "0.22"
+eframe = "0.22"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[package.metadata.deb]
+maintainer = "MichMazbout<MichMazbout@outlook.com>"
+copyright = "2025, Your Name"
+license-file = ["LICENSE", "0"]
+extended-description = """A Simple Onion Link Manager Tool"""
+depends = "$auto"
+section = "utils"
+priority = "optional"
+assets = [
+    ["target/release/greet", "usr/bin/", "755"],
+]
