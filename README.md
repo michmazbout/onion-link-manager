@@ -1,6 +1,7 @@
 # 🌐 Onion Link Manager  
 ![Rust](https://img.shields.io/badge/language-Rust-orange)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)  
+
 *[Rust 1.70+] A sleek GUI to organize and access your Tor onion links*  
 
 ---
